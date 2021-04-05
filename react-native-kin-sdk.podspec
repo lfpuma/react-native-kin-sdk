@@ -18,13 +18,18 @@ Pod::Spec.new do |s|
   # s.license    = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "Xing Yi" => "xingyi0201@gmail.com" }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/xingyi0201/react-native-kin-sdk.git", :tag => "#{s.version}" }
+  # s.source       = { :git => "https://github.com/xingyi0201/react-native-kin-sdk.git", :tag => "#{s.version}" }
+  s.source       = { :http => 'file:' + __dir__ + '/KinSDK.zip' }
 
   s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift}"
   s.requires_arc = true
 
   s.dependency "React"
-  # ...
-  # s.dependency "..."
+  s.dependency "KinBase"
+  s.dependency "KinUX"
+  s.dependency "KinDesign"
+  
+  # s.ios.vendored_frameworks = 'Frameworks/KinSDK.framework'
+
 end
 
