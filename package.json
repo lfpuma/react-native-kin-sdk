@@ -1,0 +1,40 @@
+{
+  "name": "react-native-kin-sdk",
+  "title": "React Native Kin Sdk",
+  "version": "1.0.0",
+  "description": "Kin SDK",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "react-native-kin-sdk.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingyi0201/react-native-kin-sdk.git",
+    "baseUrl": "https://github.com/xingyi0201/react-native-kin-sdk"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Xing Yi",
+    "email": "xingyi0201@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">=16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  }
+}
